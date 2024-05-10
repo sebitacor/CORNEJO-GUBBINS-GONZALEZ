@@ -1,0 +1,45 @@
+"ACTUALIZADO octubre 2023 (incluye hasta 18vo Proceso)","","",""
+"Este archivo consta de tres Hojas:
+""Ayuda"":             con esta información para comprender algunas columnas;
+""Especies"":         con los datos de las especies; y
+""Estadísticas"":    con las estadísticas de categorías de conservación. 
+","","",""
+"En la hoja ESPECIES: Los títulos son autoexplicativos, y tienen filtros (flechitas hacia abajo) para facilitar las búsquedas. 
+
+Se dejó fijas (Menú  - vista - Inmovilizar paneles)  las tres primeras columnas y la fila superior de títulos.","","",""
+"Los siguientes son los títulos de las columnas y la descripción de su contenido:","","",""
+"Nombre columna","Descripción de columna","",""
+"CATEGORÍA VIGENTE:","La categoría vigente (actual) de la especie","",""
+"FUENTE DE CATEGORÍA VIG.:","Actividad por la cual se clasificó la especie (RCE, CAZA, Libros rojos, etc.)","",""
+"NÚMERO PROCESO RCE","Número del Proceso del Reglamento de Clasificación de Especies (RCE) en que se clasificó la especie","",""
+"REFERENCIA o DECRETO","Documento legal o científico que asignó categoría vigente","",""
+"Categoría ANTERIOR de RCE (no vigente)","La categoría  de la especie inmediatamente antes de la clasificación actual (vigente).
+En paréntesis cuadrados aparece el nombre científico de la especie al momento de esa clasificación, sólo si ha cambiado.","",""
+"Fuente Categoría ANTERIOR RCE (no vigente)","La Fuente de la categoría inmediatamente antes de la clasificación actual (vigente)","",""
+"Categoría ANTE ANTERIOR a RCE (no vigente)","La categoría  de la especie anterior a la clasificación previa a la actual (vigente).
+En paréntesis cuadrados aparece el nombre científico de la especie al momento de esa clasificación, sólo si ha cambiado.","",""
+"Fuente Categoría ANTE ANTERIOR a RCE (no vigente)","La Fuente de la categoría anterior a la clasificación previa a la actual (vigente)","",""
+"Es vertebrado, INvertebrado, Planta u Hongo ","señala si la especie corresponde a alguna de esas tipificaciones (Invertebrado, vertebrado, planta u hongo)","",""
+"","","",""
+"Para ver solo especies válidas y presentes en Chile
+En Hoja ESPECIES
+En columna FUENTE DE CATEGORÍA VIGENTE (AH)
+Desactive Filtro (Vacías)","","",""
+"","","",""
+"Para mayor detalle revisar minuta: ""De la prelación para efectos del SEIA de las clasificaciones y/o categorizaciones de las especies de flora y fauna silvestre""","","",""
+"","","",""
+"ANOTACION","REFERENCIA","",""
+"RCE","Decretos generados en el marco del Reglamento de Clasificación de Especies: DS Nº 151 de 2007, DS Nº 50 de 2008, DS Nº 51 de 2008, DS N° 23 de 2009 y DS N° 33 de 2012, todos de MINSEGPRES  (los cinco DS incluyen a 410 especies y/o subespecies de flora y fauna)","",""
+"CAZA","Decreto Supremo Nº 5 de 1998 de MINAGRI, Reglamento de la Ley de Caza (lista 254 especies entre anfibios, reptiles, aves y mamíferos)","",""
+"L_Rojo_Flora","Libro Rojo de la Flora Terrestre de Chile (1989)","",""
+"L_Rojo_Vert","Libro Rojo de los Vertebrados Terrestres de Chile (1988).","",""
+"Bol_47","Baeza M, E Barrera, J Flores, C Ramírez & R Rodríguez. 1998. Categorías de conservación de Pteridophyta nativas de Chile. Boletín del Museo Nacional Historia Natural 47: 23-46.","",""
+"Bol_47","Bahamondes N, A Carvacho, C Jara, M López, F Ponce, MA Retamal & E Rudolph. 1998. Categorías de conservación de decápodos nativos de aguas continentales de Chile. Boletín del Museo Nacional Historia Natural 47: 91-100.","",""
+"Bol_47","Belmonte E, L Faúndez, J Flores, A Hoffmann, M Muñoz & S Teillier. 1998. Categorías de conservación de cactáceas nativas de Chile. Boletín del Museo Nacional Historia Natural 47: 69-89.","",""
+"Bol_47","Campos H, G Dazarola, B Dyer, L Fuentes, JF Gavilán, L Huaquín, G Martínez, R Meléndez, G Pequeño, F Ponce, VH Ruiz, W Sielfeld, D Soto, R Vega & I Vila. 1998. Categorías de conservación de peces nativos de aguas continentales de Chile Boletín del Museo Nacional Historia Natural 47: 101-122.","",""
+"Bol_47","Ravenna P, S Teillier, J Macaya, R. Rodríguez & O. Zöllner. 1998. Categorías de conservación de las plantas bulbosas nativas de Chile Boletín del Museo Nacional Historia Natural 47: 47-68.","",""
+"Núñez et al. 1997","Núñez H, V Maldonado & R Pérez. 1997. Reunión de trabajo de especialistas de herpetología para categorización de especies según estados de conservación. Noticiario Mensual del Museo Nacional de Historia Natural (Chile) 329: 12-19.","",""
+"Yáñez et al. 1997","Yáñez J. 1997. Reunión de trabajo de especialistas en mamíferos acuáticos para categorización de especies según estado de conservación. Noticiario Mensual Museo Nacional de Historia Natural (Chile) 330: 8-16","",""
+"","","",""
+"","","",""
+"","","",""

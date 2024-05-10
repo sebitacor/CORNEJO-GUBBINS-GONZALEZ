@@ -1,0 +1,41 @@
+Código utilizado para la limpieza. 
+
+import pandas as pd 
+
+ 
+
+df = pd.read_csv('/content/sample_data/ataques-2007-2012.csv') 
+
+ 
+
+print("DataFrame original:") 
+
+print(df.head()) 
+
+ 
+
+import pandas as pd 
+
+ 
+
+# Cargar el archivo CSV desde la carpeta sample_data 
+
+df = pd.read_csv('/content/sample_data/ataques-2007-2012.csv') 
+
+ 
+
+# Mostrar las primeras filas del DataFrame antes de la limpieza 
+
+print("DataFrame original:") 
+
+print(df.head()) 
+
+ 
+
+# Eliminar filas que contengan "gatos asilv." 
+
+df = df[~df.apply(lambda row: row.astype(str).str.contains('gatos asilv.').any(), axis=1)] 
+
+print("\nDataFrame después de eliminar filas que contienen 'gatos asilv.':") 
+
+print(df.head())    
