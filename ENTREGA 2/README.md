@@ -2,7 +2,7 @@
 
 A continuación presentamos el video [AQUÍ](https://uccl0-my.sharepoint.com/:v:/g/personal/sebastian_cornejo_uc_cl/EQXuYmgtkhlJtvC-zXE5_vQBJ1Xpu9rmHitpNXKg0hLjJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lZFblu)sobre las bases de datos que hemos recolecta hasta ahora.
 
-También presentamos el link a la presentación [AQUÍ](https://uccl0-my.sharepoint.com/:b:/g/personal/sebastian_cornejo_uc_cl/ETYUr3Rlh51KqIAqXsd2VHsBdTLg2AkbT70xiwBjX1e3bQ?e=755nA8).
+También presentamos el link a la presentación [AQUÍ](https://www.canva.com/design/DAGEy_BKMtU/21qSEVNxxQ6DsvuHyPy0NQ/edit?utm_content=DAGEy_BKMtU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 El proceso de limpieza de datos se realizó en 2 tandas. La primera fue ordenar la informacion de la base de datos original, la que estaba en un pdf con fallas y siglas que no se entendian sin un índice. El primer paso entonces fue crear la tabla, pasar toda la información a esta, traducir las sigles y, cuando estuvo listo eso, convertir a .csv. 
 
