@@ -1,0 +1,17 @@
+# Gráfico 7: Proporción de Animales Ingresados por Ataques de Perros (en Total y Pudúes) por Año
+plt.figure(figsize=(10, 6))
+
+# Total de animales ingresados por ataques de perro por año
+total_por_perro = df[df['MOTIVO'] == 'Ataque de perro'].groupby('AÑO').size()
+plt.plot(total_por_perro.index, total_por_perro.values, marker='o', linestyle='-', color='blue', label='Total Animales Ingresados por Ataques de Perro')
+
+# Pudúes ingresados por ataques de perro por año
+pudues_por_perro = df[(df['ANIMAL INGRESADO'] == 'Pudu') & (df['MOTIVO'] == 'Ataque de perro')].groupby('AÑO').size()
+plt.plot(pudues_por_perro.index, pudues_por_perro.values, marker='s', linestyle='--', color='red', label='Pudúes Ingresados por Ataques de Perro')
+
+plt.title('Proporción de Animales Ingresados por Ataques de Perros (Total vs Pudúes) por Año')
+plt.xlabel('Año')
+plt.ylabel('Cantidad de Animales')
+plt.legend()
+plt.grid(True)
+plt.show()

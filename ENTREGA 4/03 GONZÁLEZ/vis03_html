@@ -1,0 +1,8 @@
+# Gráfico de barras apiladas: distribución de los motivos de ingreso dentro de cada comuna
+comuna_motivo_counts = df.groupby(['COMUNA', 'MOTIVO DE INGRESO']).size().unstack().fillna(0)
+comuna_motivo_counts.plot(kind='bar', stacked=True, figsize=(12, 8))
+plt.title('Distribución de los motivos de ingreso dentro de cada comuna')
+plt.xlabel('Comuna')
+plt.ylabel('Número de incidentes')
+plt.legend(title='Motivo de ingreso')
+plt.show()

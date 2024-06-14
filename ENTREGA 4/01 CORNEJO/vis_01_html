@@ -1,0 +1,23 @@
+# Gráfico 8: Resto de animales (No Pudúes) ingresados por ataques de perros vs Pudúes ingresados por ataques de perros por año
+plt.figure(figsize=(10, 6))
+
+# Filtrar resto de animales (No Pudúes) y pudúes
+resto_animales = df[df['ES PUDU'] == 'No Pudú']
+pudues = df[df['ES PUDU'] == 'Pudú']
+
+# Agrupar por año y contar los incidentes para resto de animales y pudúes
+resto_animales_resample = resto_animales[resto_animales['MOTIVO'] == 'Ataque de perro'].groupby('AÑO').size()
+pudues_resample = pudues[pudues['MOTIVO'] == 'Ataque de perro'].groupby('AÑO').size()
+
+# Gráfico de líneas para resto de animales (No Pudúes)
+plt.plot(resto_animales_resample.index, resto_animales_resample.values, marker='o', linestyle='-', color='blue', label='Resto de animales (No Pudúes)')
+
+# Gráfico de líneas para pudúes
+plt.plot(pudues_resample.index, pudues_resample.values, marker='s', linestyle='--', color='red', label='Pudúes')
+
+plt.title('Resto de animales ingresados por ataques de perros vs Pudúes ingresados por ataques de perros por año')
+plt.xlabel('Año')
+plt.ylabel('Cantidad de Animales')
+plt.legend()
+plt.grid(True)
+plt.show()

@@ -1,0 +1,4 @@
+## CORNEJO
+
+## Lo más rescatable de la visualización 01
+Las preguntas que se pueden abordar mirando los datos es ¿qué tan vulnerables son los pudúes versus otros animales? ¿qué tan vulnerables son los pudúes a ataques de perros versus otros animales? Muestra que los ataques de perros asilvestrados es un problema para esta especie, aunque no es su principal amenaza, ya que en los datos se demuestra que ingresan más pacientes pudúes por otros motivos que ponen en peligro su integridad física, son muchísimos más propensos a sufrir de ataques, por lo que se demuestra un *hallazgo*# en lo que respecta a las consecuencias de perros asilvestrados en relación a la fauna silvestre y autóctona de la región.
