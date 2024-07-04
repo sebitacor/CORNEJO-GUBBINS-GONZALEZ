@@ -1,0 +1,9 @@
+## Decisiones elementos visuales.
+
+Tal como señalamos en nuestro manual de marca disponible en nuestro repositorio grupal, la idea detrás de esta historia es, además de contar y relatar lo encontrado en los datos de Chiloé Silvestre, es transportar al usuario a la isla grande de Chiloé.
+El color de fondo y de cada sección serán distintas tonalidades de verde, y este se irá oscureciendo a medida que uno scrollea. 
+La pagina presentará, tanto en el fondo como complementarias al texto (como stickers), distintas ilustraciones de los animales protagonistas de esta historia, que son el pudú y el perro. Estas ilustraciones contribuyen a la estética seria de la página pero al mismo tiempo resaltan las características claves de cada animal. Además que sean ilustraciones permite darle un toque estético diferente a otras paginas referentes, y al mismo tiempo nos permite mostrar escenas muy crudas, las que en imágenes serían muy fuertes de ver, como un pudu muerto o un perro comiéndose un cadáver de un animal nativo. 
+Siguiendo la línea de querer transportar al hábitat del pudú, la letra utilizada para el titulo es Alegreya Sans, una letra sin serifa, para no quitar protagonismo a las ilustraciones, y que tiene un aspecto rústico por su figura un tanto curva y sus bordes puntiagudos. Además, y también para no quitar protagonismo a las ilustraciones, la letra del cuerpo será Montserrat, también sin serifa.
+Las ilustraciones que no van en tonos rojizos irán en un beige pálido, mismo de la letra del titulo y bajada, el que se acerca más a un tono natural que un blanco normal.
+
+Además de esto, los elementos visuales seguirán nuestra paleta de colores de tonos del bosque de Chiloé en sus distintas estaciones, incorporando naranjas y rojos otoñales, por ejemplo. Esto siempre sobre las gradientes de verde del color de fondo

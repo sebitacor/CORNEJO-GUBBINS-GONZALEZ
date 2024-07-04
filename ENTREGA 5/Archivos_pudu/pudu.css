@@ -1,0 +1,375 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom, #148667, #0a9f66d3);
+    max-width: 100%;
+   
+    overflow-y: scroll;
+    height: auto;
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    background-color: #006b3eb7;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.header button {
+    background-color: #0e803fb7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header button:hover {
+    background-color: #007a3b96;
+}
+
+#initial-section {
+    background: url('pudu2.png') no-repeat center top;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+}
+/* Personalización de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #148642;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #148642;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-bottom: 300px;
+    margin-top: 400px;
+}
+
+#parrafo {
+    margin: 10px 15px 10px 30px;
+    font-size: 40px;
+    color: #ead79c;
+}
+
+
+
+h1 {
+    margin-bottom: 300px;
+    font-size: 50px;
+    color: #f9dab1;
+    margin-top: 400px;
+}
+
+#content {
+    margin-top: 120px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.custom-section {
+    margin-top: 500px; /* Margen superior según sea necesario */
+    padding: 60px; /* Relleno interno según sea necesario */
+    background-color: #798614(255, 255, 255, 0.8); /* Color de fondo con transparencia */
+    border-radius: 10px;  
+}
+.custom-content {
+
+    display: cover;
+    max-width: 300%;
+    margin: 250px auto;
+    justify-content: space-between;  /* Distribuye los elementos con espacio entre ellos */
+}
+
+.custom-content img {
+    flex-shrink: 0; /* Evita que la imagen se encoja al cambiar el tamaño de fuente */
+    width: 60%; /* Ajusta el tamaño de la imagen según sea necesario */
+    max-width: 500px; /* Ancho máximo de la imagen */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+.custom-content p {
+    font-size: 26px; /* Tamaño del texto */
+    line-height: 1.4; /* Altura de línea */
+    color: #ead79c; /* Color del texto */
+     text-align: center; /* Alinea el texto a la derecha */
+    
+}
+#section4 {
+
+    padding: 0px 0px;
+    padding-top: -300px;
+    margin-top: -300px;
+    text-align: center;
+}
+#section4 .custom-content {
+    max-width: 400px;
+    margin: 0 ;
+}
+
+#section4 p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 28px;
+    line-height: 1.6;
+    color: #ead79c;
+    padding-bottom: 80px
+    ;
+}
+#section5 {
+    padding: -100px;
+    text-align: center;
+}
+
+#section5 .custom-content {
+    max-width: 500px;
+    margin-top: 40px auto;
+    margin-bottom:70px ;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+#section5 img {
+    max-width: 80%;
+    height: auto;
+    padding-left: -10px;
+    margin-bottom: 120px;
+    margin: 70px;
+}
+
+#section5 p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #ead79c;
+}
+#amenazas {
+    
+    max-width: 1000px; /* Ancho máximo para el contenedor */
+    margin: 20px auto; /* Centrar el contenedor */
+    padding-left: 200px; /* Espaciado interno */
+    
+   
+}
+#amenazas h2 {
+    font-family: 'Alegreya Sans SC', sans-serif; /* Fuente del título */
+    font-size: 30px; /* Tamaño del título */
+    color: #ead79c; /* Color del texto */
+    text-align: justify; /* Alinear el texto al centro */
+}
+
+#amenazas ul {
+    list-style-type: disc; /* Tipo de marcador */
+    margin-top: 0px; /* Espaciado superior de la lista */
+    margin-bottom: -150px;
+    padding-left: 0px; /* Sangría izquierda de la lista */
+    text-align: left;
+}
+
+#amenazas li {
+    font-family: 'Alegreya Sans SC', sans-serif; /* Fuente del texto de la lista */
+    font-size: 26px; /* Tamaño del texto de la lista */
+    color: #ead79c; /* Color del texto de la lista */
+}
+#texto-seccion {
+    
+    padding: 60px; /* Espaciado interno */
+    padding-top: 90px;
+    text-align: center; /* Alinear el texto justificado */
+}
+
+#texto-seccion .custom-content {
+    max-width: 500px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+#texto-seccion p {
+    font-family: 'Alegreya Sans SC', sans-serif; /* Fuente del texto */
+    font-size: 26px; /* Tamaño del texto */
+    line-height: 1.6; /* Altura de línea */
+    color: #ead79c; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado inferior entre párrafos */
+}
+.photo-text-section {
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    margin-bottom: 40px; /* Espacio inferior entre secciones */
+}
+
+.photo {
+    flex: 3; /* Que ocupe 1/3 del espacio disponible */
+    margin-right: 60px; /* Espacio derecho entre foto y texto */
+}
+
+.photo img {
+    max-width: 100%; /* Imagen ajustada al contenedor */
+    height: auto; /* Mantener proporciones */
+    display: block; /* Eliminar espacios extra */
+}
+
+.text {
+    flex: 3; /* Que ocupe 2/3 del espacio disponible */
+}
+
+.text p {
+    font-family: 'Alegreya Sans SC', sans-serif; /* Fuente del texto */
+    font-size: 26px; /* Tamaño del texto */
+    line-height: 1.6; /* Altura de línea */
+    color: #ead79c; /* Color del texto */
+}
+
+/* Asegúrate de incluir estas reglas en tu archivo CSS */
+
+.text-photo-section {
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+
+.text-content {
+    flex: 1;
+    padding: 0px;
+    /* Aquí puedes agregar más estilos para el texto */
+    font-size: 36px; /* Tamaño del texto */
+    color: #ead79c; /* Color del texto */
+    font-family: 'Alegreya Sans SC', sans-serif; /* Tipografía */
+}
+
+.photo-content {
+    flex: 1;
+    margin-right: -180px;
+    padding: 0px;
+    text-align: right; /* Alineación de la imagen a la derecha */
+    max-width: 60%;
+}
+
+.photo-content img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para la imagen, si lo deseas */
+}
+
+
+
+
+
+
+/* Estilo para las secciones */
+#section1, #section2, #section3 {
+    margin-top: 50px;
+    height: 70px;
+    width: 100%;
+    padding: 300px;
+    background-color: rgba(1, 116, 74, 0.658);
+    
+}
+.custom-section {
+    
+    margin-top: 10px; /* Margen superior según sea necesario */
+    padding: 300px; /* Relleno interno según sea necesario */
+    display: cover;
+    justify-content: left; /* Centrar horizontalmente el contenido */
+    align-items: left; /* Centrar verticalmente el contenido */
+   
+}
+
+
+.text-section {
+    
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.text-section p {
+    margin-bottom: 10px; /* Margen inferior para los párrafos */
+    font-size: 30px; /* Tamaño del texto */
+    line-height: 1.6; /* Altura de línea */
+    color: #ead79c; /* Color del texto */
+}
+
+.text-section h2 {
+    color: #ead79c; /* Color del título */
+    font-size: 30px; /* Tamaño del título */
+    margin-bottom: 15px; /* Margen inferior para el título */
+}
+
+.text-section .highlight {
+    font-weight: bold; /* Texto en negrita */
+    color: #ead79c; /* Color de resaltado */
+}
+}
+
+
+/* Estilos para el contenedor de secciones */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 0px; /* Espaciado interno */
+}
+
+/* Estilos generales para las secciones */
+.section {
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    padding-top: -;
+    position: static; /* Para poder usar propiedades como top, left, etc. */
+    font-family: 'Alegreya Sans SC', sans-serif; /* Tipografía */
+    font-size: 26px; /* Tamaño de la letra */
+}
+
+/* Estilos específicos para la sección 1 */
+.section1 {
+    background-color: #ead79c; /* Color de fondo de la sección */
+    color: #ead79c; /* Color del texto */
+}
+
+
+/* Estilos específicos para la sección 2 */
+.section2 {
+    background-color: #ead79c; /* Color de fondo de la sección */
+    color: #ead79c; /* Color del texto */
+}
+
+/* Estilos específicos para la sección 3 */
+.section3 {
+    background-color: #ff9d00; /* Color de fondo de la sección */
+    color: #ead79c; /* Color del texto */
+    
+}
+
+/* Estilos para los títulos de las secciones */
+.section h2 {
+    font-size: 44px; /* Tamaño del título */
+    margin-top: -200px;
+    margin-bottom: 10px; /* Margen inferior para el título */
+    padding-right: 630px;
+    padding-top: -400px;
+
+
+}
+
+/* Estilos para los párrafos de las secciones */
+.section p {
+    line-height: 1.6; /* Altura de línea */
+    margin-left: 0px;
+    padding-right: 630px;
+}
