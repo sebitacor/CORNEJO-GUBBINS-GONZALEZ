@@ -1,0 +1,380 @@
+body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #058e6e; /* Color de fondo verdoso claro */
+    text-align: center;
+}
+
+#inicio {
+
+    
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh; /* La sección ocupa toda la altura de la ventana */
+    width: 220vh;
+    background-color: #088e71; /* Color de fondo verdoso */
+    text-align: center;
+}
+
+#inicio h1 {
+    color: #ead79c; /* Color del título */
+    margin: 0;
+    font-size: 3em;
+}
+
+#inicio img {
+    margin-top: 1em;
+    max-width: 100%;
+    height: auto;
+     }
+
+header {
+    background-color: #0ad199; /* Color de la cabecera verdoso */
+    padding: 1em;
+    text-align: center;
+    opacity: 60%;
+}
+
+nav button {
+    background-color: #2e7d32; /* Color de los botones verdoso oscuro */
+    color: white;
+    border: none;
+    padding: 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    font-size: 1em;
+    align-content:center ;
+}
+
+nav button:hover {
+    background-color: #388e3c; /* Color de los botones al pasar el ratón */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    margin: 2em 0;
+    width: 80%;
+    padding: 2em;
+    background-color: #a5d6a7; /* Color de fondo de las secciones verdoso claro */
+    border-radius: 8px;
+   
+}
+.container {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .container_texto {
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    max-width: 1400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+  }
+/esto es la parte del pudu y su mama/
+.fact {
+    background-color: #01b7838d;
+    border: 1px solid #ead79c;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+  }
+  .fact img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .fact p {
+    margin: 10px 0 0;
+    font-size: 30px;
+    color: #ead79c;
+    
+  }
+  .fact_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #01b7838d;
+    border: 1px solid #ead79c;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 1200px;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0);
+    }
+    .fact_2 img {
+        width: 600px; /* Ajusta el tamaño de la imagen si es necesario */
+        height: auto;
+        border-radius: 10px;
+        margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+        margin-left: 130px;
+        float: right;
+        }
+    .fact_2 h2 {
+        margin: 10px 60px 0;
+    font-size: 40px;}
+        .fact_2 ol{
+            margin: 10px 50px 0px 40px ;
+            font-size: 30px ;
+            color: #ead79c ;
+        } 
+
+    .fact_2 p {
+      margin: 10px 0 0;
+      font-size: 30px;
+      color: #ead79c;
+      
+    }
+    .fact_2 h3{
+        font-size: 10px
+        margin; 10px 20px 0;}
+
+               
+    .flourish-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh; /* Puedes ajustar esto según tus necesidades */
+    }
+    .flourish-embed {
+        width: 1200px;
+        height: 560px;
+    }
+
+
+h2 {
+    color: #1b5e20; /* Color de los títulos verdoso oscuro */
+}
+
+/* CSS específico para el <h1> */
+.custom-heading {
+    color: #ead79c; /* Color del título */
+    margin left: 45px ;  
+    margin-right:35px ; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    font-size: 2em;
+    
+    
+}
+
+p {
+    color: #2e7d32; /* Color del texto */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Barra de desplazamiento personalizada */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #058e6e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0ad199;
+    border-radius: 20px;
+    border: 3px solid #108756;
+}
+
+.about .titlepage p {
+    font-weight: 300;
+    color: #1b5e20;
+    font-size: 17px;
+    line-height: 31px;
+    padding-bottom: 35px;
+}
+img {
+    max-width: 30%;
+    height: auto;
+}
+
+img {
+    border-style: none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.about_img figure img {
+    width: 100%;
+    z-index: 9999;
+    position: relative;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.primertexto {
+    font-size: 2.5rem;
+    color: #ead79c; 
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70p;
+    margin-bottom: 50px ;
+}
+#seccion1 {
+    background-color: #0ad199; /* Fondo verde claro */
+    padding: 20px; /* Espacio interior */
+    text-align: left; /* Alineación justificada del texto */
+    border: 1px solid #00c476; /* Borde delimitador */
+    margin: 20px; /* Margen exterior */
+    border-radius: 40px; /* Borde redondeado */
+    padding-right: 20px;
+    padding-bottom: 0px
+    
+    
+ }
+
+.texto1 {
+    flex: 1; 
+    display: flex;
+    padding-right: 30%; 
+   align-content: left;
+   padding-bottom:-100px ;
+   color: #ead79c;
+   word-break: break-all;
+   
+   display: flex;
+  justify-content: space-between; /* Distribuye el contenido horizontalmente */
+  align-items: flex-start;
+}
+
+.imagenmama img {
+    width: 25%; 
+    height: 25%;
+    display: block;
+    border-radius: 5px;
+    position: relative; 
+    bottom: 120px; 
+    left: 750px; 
+}
+.division1{
+    
+    font-size: 2.5rem;
+    color: #ead79c; 
+    text-align: center;
+    padding:0%
+    background-color: #1b5e20;
+}
+   .division2{
+    font-size: 2.5rem;
+    color: #ead79c; 
+    text-align: center;
+    padding:0%
+    background-color: #1b5e20;
+ } 
+#seccion2 {
+    text-align: left;
+    font-size: 40px;
+    background-color: #0ad199;
+    padding: 50px;
+    margin: 20px; /* Margen exterior */
+    border-radius: 40px;
+    
+}
+.imagenmuerto img {
+    width:50%; /* Ancho máximo del contenedor */
+    height: 50%; /* Altura automática para mantener la proporción */
+    display: block; /* Evitar espacios en blanco debajo de la imagen */
+    position: relative;
+    bottom: 220px;
+    right: -550px;
+ }
+
+
+
+
+
+
+    #seccion3 {
+        text-align: right;
+        image-orientation: right;
+        font-size: 40px;
+        background-color: #0ad199;
+        padding: 50px;
+        margin: 20px; /* Margen exterior */
+        border-radius: 40px;
+
+        
+    }
+    .texto3{
+        flex: 1; /* Ocupar todo el espacio restante */
+        padding-left: 38%; 
+        align-content: right;
+        padding-bottom:-100px ;
+         color: #ead79c;
+    }
+
+
+.division3 {
+
+    font-size: 2.5rem;
+    color: #ead79c; 
+    text-align: left;
+    padding:0%
+    background-color: #1b5e20;
+    padding-right: 700px
+}
+
+
+
+
+.ladra img {
+    
+    width: 30%; /* Ancho máximo de la imagen dentro del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: 
+    
+  
+}
+
+.division4 {
+    font-size: 2.5rem;
+    color: #ead79c; 
+    text-align: center;
+    padding:0%
+    background-color: #1b5e20;
+    
+}
+
+/* Define el fondo para todo el cuerpo de la página */
+body {
+    background-image: url('fondo\ mejor\ color.png'); /* Asegúrate de usar la ruta correcta */
+    background-repeat: repeat; /* Repite la imagen tanto horizontal como verticalmente */
+    background-size: 2000px 2000px; /* Ajusta el tamaño de la imagen (opcional) */
+    background-color: #058e6e; /* Define un color de fondo de respaldo (opcional) */
+    text-align: left
+    o
+ }
+ .viz-race {
+    width: 60%;
+ }
